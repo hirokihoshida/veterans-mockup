@@ -19,26 +19,52 @@
 </div>
 
 <div class="container">
+
+    <ul class="collapsible" data-collapsible="expandable">
+        <li>
+            <div class="collapsible-header center-align">
+                Options
+            </div>
+            <?php include 'selector.php';?>
+        </li>
+    </ul>
     <div class="section">
         <div class="row">
             <div class="col s12">
-                <ul class="collapsible popout" data-collapsible="expandable">
+                <table class="striped">
+                    <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                        <th>Branch</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Age</th>
+                    </tr>
+                    </thead>
 
-                    <li>
-                        <div class="collapsible-header">
-                            John Doe
-                        </div>
-                        <?php include 'info.php';?>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">David Yi</div>
-                        <?php include 'info.php';?>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">Person 3</div>
-                        <?php include 'form.php';?>
-                    </li>
-                </ul>
+                    <tbody>
+                    <tr>
+                        <td>Alvin</td>
+                        <td>Eclair</td>
+                        <td>$0.87</td>
+                    </tr>
+                    <tr>
+                        <td>Alan</td>
+                        <td>Jellybean</td>
+                        <td>$3.76</td>
+                    </tr>
+                    <tr>
+                        <td>Jonathan</td>
+                        <td>Lollipop</td>
+                        <td>$7.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- CODE FOR COLLECTION GOES HERE -->
+
             </div>
         </div>
     </div>

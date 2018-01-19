@@ -22,7 +22,7 @@
                         <p>Information and data for all Bergen County Veterans Services clients.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#" class="black-text">View</a>
+                        <a href="index.php" class="black-text">View</a>
                     </div>
                 </div>
             </div>
