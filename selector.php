@@ -29,6 +29,7 @@
                             <label for="test5">Phone</label>
                         </div>
                     </div>
+                    <br>
                     <div class="row">
                         <div class="col s2">
                             <input type="checkbox" class="filled-in" id="test5"/>
@@ -49,6 +50,33 @@
                         <div class="col s2">
                             <input type="checkbox" class="filled-in" id="test5"/>
                             <label for="test5">Healthcare ID Status</label>
+                        </div>
+                        <div class="col s2">
+                            <input type="checkbox" class="filled-in" id="test5"/>
+                            <label for="test5">Valid ID</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col s2">
+                            <input type="checkbox" class="filled-in" id="test5"/>
+                            <label for="test5">Income Level</label>
+                        </div>
+                        <div class="col s2">
+                            <input type="checkbox" class="filled-in" id="test5"/>
+                            <label for="test5">Benefits</label>
+                        </div>
+                        <div class="col s2">
+                            <input type="checkbox" class="filled-in" id="test5"/>
+                            <label for="test5">Driver License</label>
+                        </div>
+                        <div class="col s2">
+                            <input type="checkbox" class="filled-in" id="test5"/>
+                            <label for="test5">Employment Status</label>
+                        </div>
+                        <div class="col s2">
+                            <input type="checkbox" class="filled-in" id="test5"/>
+                            <label for="test5">Combat Zone Service</label>
                         </div>
                     </div>
                 </form>
