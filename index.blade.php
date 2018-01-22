@@ -9,50 +9,48 @@
 
 <div class="container">
     <div class="section">
-        <div class="row">
-            <div class="input-field col s12">
-                <i class="material-icons prefix">search</i>
-                <input placeholder="Search for a Veteran..." id="search" type="text" class="validate">
-            </div>
-        </div>
+
     </div>
 </div>
 
 <div class="container">
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">search</i>
+            <input placeholder="Search for a Veteran..." id="search" type="text" class="validate">
+        </div>
+        <div class="input-field col s10">
+            <ul class="collapsible" data-collapsible="expandable">
+                <li>
+                    <div class="collapsible-header center-align">
+                        Options
+                    </div>
+                    <?php include 'selector.php';?>
+                </li>
+            </ul>
+        </div>
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Age</th>
+                    <th>Branch</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Edit</th>
+                </tr>
+                </thead>
 
-    <ul class="collapsible" data-collapsible="expandable">
-        <li>
-            <div class="collapsible-header center-align">
-                Options
-            </div>
-            <?php include 'selector.php';?>
-        </li>
-    </ul>
-    <div class="section">
-        <div class="row">
-            <div class="col s12">
-                <table class="striped">
-                    <thead>
-                    <tr>
-                        <th>First</th>
-                        <th>Last</th>
-                        <th>Age</th>
-                        <th>Branch</th>
-                        <th>Phone</th>
-                        <th>Email</th>
-                        <th>Edit</th>
-                    </tr>
-                    </thead>
+                <tbody>
+                <?php include 'table.blade.php';?>
+                <?php include 'table.blade.php';?>
+                <?php include 'table.blade.php';?>
+                </tbody>
+            </table>
+            <!-- CODE FOR COLLECTION GOES HERE -->
 
-                    <tbody>
-                    <?php include 'table.blade.php';?>
-                    <?php include 'table.blade.php';?>
-                    <?php include 'table.blade.php';?>
-                    </tbody>
-                </table>
-                <!-- CODE FOR COLLECTION GOES HERE -->
-
-            </div>
         </div>
     </div>
 </div>
