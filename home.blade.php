@@ -1,4 +1,4 @@
-<?php include 'head.php'; ?>
+<?php include 'head.blade.php'; ?>
 
 <body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -22,7 +22,7 @@
                         <p>Information and data for all Bergen County Veterans Services clients.</p>
                     </div>
                     <div class="card-action">
-                        <a href="index.php" class="black-text">View</a>
+                        <a href="index.blade.php" class="black-text">View</a>
                     </div>
                 </div>
             </div>
@@ -41,6 +41,36 @@
                     </div>
                 </div>
             </div>
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Report.jpg">
+                        <span class="card-title black-text"><b>Visits</b></span>
+                    </div>
+                    <div class="card-content">
+                        <p>Log the visits of clients.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="black-text">Log Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Search.jpg">
+                        <span class="card-title black-text"><b>Search</b></span>
+                    </div>
+                    <div class="card-content">
+                        <p>Search the database of clients.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="black-text">Basic</a>
+                        <a href="#" class="black-text">Advanced</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

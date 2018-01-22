@@ -1,4 +1,4 @@
-<?php include 'head.php';?>
+<?php include 'head.blade.php';?>
 
 <body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -45,9 +45,9 @@
                     </thead>
 
                     <tbody>
-                    <?php include 'table.php';?>
-                    <?php include 'table.php';?>
-                    <?php include 'table.php';?>
+                    <?php include 'table.blade.php';?>
+                    <?php include 'table.blade.php';?>
+                    <?php include 'table.blade.php';?>
                     </tbody>
                 </table>
                 <!-- CODE FOR COLLECTION GOES HERE -->

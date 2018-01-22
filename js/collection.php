@@ -3,11 +3,11 @@
         <div class="collapsible-header">
             John Doe
         </div>
-        <?php include 'info.php';?>
+        <?php include 'info.blade.php';?>
     </li>
     <li>
         <div class="collapsible-header">David Yi</div>
-        <?php include 'info.php';?>
+        <?php include 'info.blade.php';?>
     </li>
     <li>
         <div class="collapsible-header">Person 3</div>
