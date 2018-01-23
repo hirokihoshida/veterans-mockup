@@ -19,10 +19,10 @@
                         <span class="card-title"><b>Clients</b></span>
                     </div>
                     <div class="card-content">
-                        <p>Information and data for all Bergen County Veterans Services clients.</p>
+                        <p>Information and data for all Veterans Services clients.</p>
                     </div>
                     <div class="card-action">
-                        <a href="index.blade.php" class="black-text">View</a>
+                        <a href="list.blade.php" class="black-text">View</a>
                     </div>
                 </div>
             </div>

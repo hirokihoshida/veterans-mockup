@@ -6,20 +6,14 @@
 <script type="text/javascript" src="js/index.js"></script>
 
 <?php include 'navbar.php';?>
-
-<div class="container">
-    <div class="section">
-
-    </div>
-</div>
-
 <div class="container">
     <div class="row">
         <div class="input-field col s12">
             <i class="material-icons prefix">search</i>
             <input placeholder="Search for a Veteran..." id="search" type="text" class="validate">
         </div>
-        <div class="input-field col s10">
+
+        <div class="input-field col s12">
             <ul class="collapsible" data-collapsible="expandable">
                 <li>
                     <div class="collapsible-header center-align">
@@ -45,11 +39,19 @@
 
                 <tbody>
                 <?php include 'table.blade.php';?>
-                <?php include 'table.blade.php';?>
-                <?php include 'table.blade.php';?>
+
                 </tbody>
             </table>
             <!-- CODE FOR COLLECTION GOES HERE -->
+            <div id="edit" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
 
         </div>
     </div>
