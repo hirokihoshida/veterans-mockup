@@ -59,7 +59,7 @@
                 <div class="card">
                     <div class="card-image">
                         <img src="Search.jpg">
-                        <span class="card-title black-text"><b>Search</b></span>
+                        <span class="card-title"><b>Search</b></span>
                     </div>
                     <div class="card-content">
                         <p>Search the database of clients.</p>
