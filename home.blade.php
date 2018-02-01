@@ -51,7 +51,7 @@
                         <p>Log the visits of clients.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#" class="black-text">Log Visit</a>
+                        <a href="log.blade.php" class="black-text">Log Visit</a>
                     </div>
                 </div>
             </div>
