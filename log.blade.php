@@ -8,31 +8,37 @@
 <?php include 'navbar.php';?>
 <div class="container">
     <div class="row">
-        <div class="input-field col s12">
-            <input type="text" class="datepicker">
-        </div>
+        <br>
         <div class="col s12">
-            <table class="striped">
-                <thead>
-                <tr>
-                    <th>First</th>
-                    <th>Last</th>
-                    <th>Age</th>
-                    <th>Branch</th>
-                    <th>Phone</th>
-                    <th>Email</th>
-                    <th>Edit</th>
-                </tr>
-                </thead>
-
-                <tbody>
-                <?php include 'table.blade.php';?>
-
-                </tbody>
-            </table>
-            <!-- CODE FOR COLLECTION GOES HERE -->
-
-
+            <div class="card white">
+                <div class="card-content">
+                    <span class="card-title">Log a Visit</span>
+                    <br>
+                    <form>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="client" type="text" class="validate">
+                                <label for="client">Select Client</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input id="date" type="text" class="datepicker">
+                                <label for="date">Date</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input id="time" type="text" class="timepicker">
+                                <label for="time">Time</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="notes" class="materialize-textarea"></textarea>
+                                <label for="notes">Notes</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-action">
+                    <a href="#">Save</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
