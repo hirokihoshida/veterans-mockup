@@ -44,7 +44,7 @@
             <div class="col s6">
                 <div class="card">
                     <div class="card-image">
-                        <img src="Report.jpg">
+                        <img src="Visits.jpg">
                         <span class="card-title black-text"><b>Visits</b></span>
                     </div>
                     <div class="card-content">
