@@ -7,6 +7,33 @@
     <td>davidyi@david.yi</td>
     <td><a class="material-icons black-text modal-trigger" href ="#edit" >edit</a></td>
 </tr>
+<tr>
+    <td>David</td>
+    <td>Yi</td>
+    <td>109</td>
+    <td>ABC</td>
+    <td>1234567890</td>
+    <td>davidyi@david.yi</td>
+    <td><a class="material-icons black-text modal-trigger" href ="#edit" >edit</a></td>
+</tr>
+<tr>
+    <td>David</td>
+    <td>Yi</td>
+    <td>109</td>
+    <td>ABC</td>
+    <td>1234567890</td>
+    <td>davidyi@david.yi</td>
+    <td><a class="material-icons black-text modal-trigger" href ="#edit" >edit</a></td>
+</tr>
+<tr>
+    <td>David</td>
+    <td>Yi</td>
+    <td>109</td>
+    <td>ABC</td>
+    <td>1234567890</td>
+    <td>davidyi@david.yi</td>
+    <td><a class="material-icons black-text modal-trigger" href ="#edit" >edit</a></td>
+</tr>
 <div id="edit" class="modal">
     <div class="modal-content">
         <h5>Edit Client Information</h5>
@@ -64,6 +91,6 @@
         </p>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Save</a>
     </div>
 </div>

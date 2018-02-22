@@ -65,8 +65,8 @@
                         <p>Search the database of clients.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#" class="black-text">Basic</a>
-                        <a href="#" class="black-text">Advanced</a>
+                        <a href="search.php" class="black-text">Basic</a>
+                        <a href="search.php" class="black-text">Advanced</a>
                     </div>
                 </div>
             </div>
