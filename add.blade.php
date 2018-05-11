@@ -17,45 +17,80 @@
                     <form>
                         <div class="row">
                             <div class="input-field col s3">
-                                <input value="David" id="firstname" type="text">
-                                <label for="firstname">First Name</label>
+                                <input value="" id="firstname" type="text">
+                                <label for="flkirstname">First Name</label>
                             </div>
                             <div class="input-field col s3">
-                                <input value="Yi" id="lastname" type="text">
+                                <input value="" id="lastname" type="text">
                                 <label for="lastname">Last Name</label>
                             </div>
                             <div class="input-field col s1">
-                                <input value="60" id="age" type="number">
+                                <input value="" id="age" type="number">
                                 <label for="age">Age</label>
                             </div>
                             <div class="input-field col s5">
-                                <input value="davidyi@david.yi" id="email" type="email" class="validate">
+                                <input value="" id="email" type="email" class="validate">
                                 <label for="email">Email</label>
                             </div>
                             <div class="input-field col s6">
-                                <input value="123 David Yi" id="street" type="text">
+                                <input value="" id="street" type="text">
                                 <label for="street">Street</label>
                             </div>
                             <div class="input-field col s1">
-                                <input value="YI" id="state" type="text">
+                                <input value="" id="state" type="text" >
                                 <label for="state">State</label>
                             </div>
                             <div class="input-field col s1">
-                                <input value="12345" id="zip" type="text">
+                                <input value="" id="zip" type="text">
                                 <label for="zip">Zip</label>
                             </div>
                             <div class="input-field col s4">
-                                <input value="123-456-7890" id="phone" type="tel" class="validate">
+                                <input value="" id="phone" type="tel" class="validate">
                                 <label for="phone">Phone</label>
                             </div>
+
                             <div class="input-field col s1">
-                                <input value="ABC" id="branch" type="text">
+                                <input value="" id="branch" type="text">
                                 <label for="branch">Branch</label>
                             </div>
                             <div class="input-field col s1">
-                                <input value="" id="Di" type="text">
-                                <label for=""></label>
+                                <input value="" id="disability" type="text">
+                                <label for="disability">Disability</label>
                             </div>
+                            <div class="input-field col s1">
+                                <input value="" id="senior" type="text">
+                                <label for="senior">Senior</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <input value="" id="charservice" type="text">
+                                <label for="charservice">Character of Service</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <input value="" id="validid" type="text">
+                                <label for="validid">Valid ID</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <input value="" id="incomelevel" type="text">
+                                <label for="incomelevel">Income Level</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <input value="" id="benefits" type="text">
+                                <label for="benefits">Benefits</label>
+                            </div>
+                            <div class="input-field col s1">
+                                <input value="" id="drivers" type="text">
+                                <label for="drivers">Drivers</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <input value="" id="Background" type="text">
+                                <label for="Background">Background</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <input value="" id="combat" type="text">
+                                <label for="combat">Combat Zone Service</label>
+                            </div>
+
+
                             <div class="input-field col s12">
                                 <textarea id="notes" class="materialize-textarea"></textarea>
                                 <label for="notes">Notes</label>
